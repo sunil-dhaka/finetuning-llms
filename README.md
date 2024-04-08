@@ -41,9 +41,10 @@ training runs."
 - rather created an evaluation pipeline to inference on the models to generate output for some test cases for manual eval
     - eval_examples.xlsx file contains some test cases, both are doing almost similary bad(expected as model has been evaluated for 1 epoch), they start repeating after some tokens
 
-## future todos
+## future todos(for myself)
 - finetune on at least 1B model variant of pythia or even better llama-7B
 - if got compute: change no of epochs(in fine_tune.py) and model variant; then just execute `python fine_tune.py` with requirements all setup.
+- explore PEFT, LoRA, QLoRA techniques for larger variants of pythia for this use case
 - to evaluate decently finetuned model create standard NLP metrices evaluation pipeline
 
 ## where is what
